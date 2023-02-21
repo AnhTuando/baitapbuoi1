@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BuzzproClone</title>
+    <link
+      rel="shortcut icon"
+      href="https://htmldemo.net/buzzpro/buzzpro/img/logo/1.png"
+      type="image/x-icon"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      /* header */
+      .header {
+        height: 60px;
+        margin: 10px 0px;
+      }
+      .navigation {
+        display: flex;
+      }
+      .navigation .logo {
+        height: 100%;
+        margin-left: 15%;
+        margin-right: 15%;
+      }
+      .navigation .logo img {
+        height: 60px;
+      }
+      .navigation .menu {
+        line-height: 60px;
+      }
+      .navigation .menu a {
+        text-decoration: none;
+        color: black;
+        padding: 0px 10px 0px;
+        font-weight: bold;
+      }
+      .navigation .menu a:hover {
+        color: aqua;
+        transition: 0.25s;
+      }
+      .navigation .nav-contact {
+        line-height: 60px;
+        margin-left: 15%;
+      }
+      .navigation .nav-contact i {
+        padding: 0px 10px 0px;
+        font-size: 20px;
+      }
+      .navigation .nav-contact i:hover {
+        color: rgb(161, 22, 69);
+      }
+
+      /* main */
+      /* main slider */
+      .main .background {
+        background: url("img/298362930_459037212810356_366604261542047086_n.png")
+          no-repeat center/cover;
+        width: 100%;
+        height: 500px;
+      }
+      .background .description {
+        margin-left: 25%;
+        padding-top: 10%;
+      }
+      .description h2 {
+        font-size: 60px;
+        padding-left: 12%;
+        text-shadow: 2px 0 #000;
+        color: #42ecf5;
+      }
+      .description .sub-des {
+        font-size: 24px;
+        padding-top: 30px;
+        color: white;
+        text-shadow: 1px 0 #000;
+      }
+      .background .btn {
+        margin-left: 45%;
+        margin-top: 100px;
+        border-radius: 10px;
+        border: none;
+        padding: 15px;
+        font-weight: bold;
+        font-size: 18px;
+        color: white;
+        background-color: #0d7cb3;
+      }
+      .background .btn:hover {
+        background-color: #35ebf5;
+        transition: 0.25s;
+      }
+
+      /* main article */
+      .main .article {
+        margin-top: 10%;
+        margin-left: 15%;
+        margin-right: 15%;
+        display: flex;
+      }
+      .main .article h3 {
+        color: rgb(94, 91, 91);
+        font-size: 30px;
+      }
+      .article .about p {
+        font-size: 14px;
+        padding: 20px 0px;
+        width: 750px;
+      }
+      .about img {
+        padding-top: 50px;
+      }
+      .article .about-img {
+        padding-left: 15%;
+      }
+      .aside {
+        margin-top: 100px;
+        display: flex;
+      }
+      .aside .video iframe {
+        margin-left: 50%;
+      }
+      .aside .section {
+        margin-left: 25%;
+        width: 600px;
+      }
+      .aside .section-tittle {
+        color: #009ee2;
+      }
+      .aside .section .sub-section {
+        margin: 50px 0px;
+      }
+      .section .sub-section p {
+        font-size: 18px;
+        padding: 5px 0px;
+      }
+      .section .sub-section span {
+        font-style: italic;
+      }
+
+      /* Footer */
+      .footer .info {
+        background-color: #fafafa;
+        margin-top: 5%;
+        height: 100%;
+        padding: 30px;
+        display: flex;
+      }
+      .footer .info .phone,
+      .footer .info .gmail,
+      .footer .info .address {
+        font-size: 16px;
+        margin: 0px 200px;
+      }
+      .footer .contact {
+        background-color: #35ebf5;
+        display: flex;
+        padding: 30px 20%;
+        justify-content: space-between;
+      }
+
+      .footer .contact .icon i {
+        padding: 0px 10px;
+      }
+      .footer .contact span a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!----------- Header --------------->
+    <header class="header">
+      <nav class="navigation">
+        <div class="logo">
+          <img
+            src="https://htmldemo.net/buzzpro/buzzpro/img/logo/1.png"
+            alt=""
+          />
+        </div>
+        <div class="menu">
+          <a href="">Home</a>
+          <a href="">About</a>
+          <a href="">Services</a>
+          <a href="">Project Work</a>
+          <a href="">Team</a>
+          <a href="">Blog</a>
+          <a style="color: rgb(217, 26, 26)" href="/Buoi_1/table.html"
+            >Register</a
+          >
+        </div>
+        <div class="nav-contact">
+          <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-square-behance"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!----------- Main --------------->
+    <!----------- Main slider --------------->
+
+    <main class="main">
+      <div class="background">
+        <div class="description">
+          <h2 class="tittle">SUCCESS BUILDER</h2>
+          <p class="sub-des">
+            A complete guied of web-desgin and development. Our first priority
+            is our client success & satisfactions.
+          </p>
+        </div>
+        <button class="btn">VIEW PORTFOLO</button>
+      </div>
+      <!----------- Main article --------------->
+
+      <article class="article">
+        <div class="about">
+          <h3 class="tittle">WE ARE CREATIVE PEOPLE</h3>
+          <p class="description-1">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiu
+            smod te porncid duntci labore dolore magna aliqua. We work togather
+            for batter tommorow and acquire scuccessquis ntrud exercitation
+            ulamco laboris nisi ut aliquip ex ea commodo consequat. Dus aute in
+            hant iaba irure dolor in reprehit in voluptate velit esse cillum
+            dolore t nulla par iatur.
+          </p>
+          <p class="description-2">
+            “We work togather for batter tommorow and acquire scuccess ”.totam
+            rem aperiamequisa quae ab illo inventore veritatis et quasn oh
+            beatae, this the best busi
+          </p>
+          <p class="description-3">
+            adipisci velit, sed quia non numquam eius modi tempora incidunt ut
+            labore et dolomagnam
+          </p>
+          <img
+            src="/Buoi_1/img/360_F_429547_YJTlwk2Ld5kYDAbtCUwFgzmatgUHEg.jpg"
+            alt=""
+          />
+        </div>
+        <img
+          class="about-img"
+          src="https://htmldemo.net/buzzpro/buzzpro/img/creative/2.png"
+          alt=""
+        />
+      </article>
+      <aside class="aside">
+        <div class="video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/8uZ98Pa3bPE"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <section class="section">
+          <h2 class="section-tittle">OUR SERVIECS</h2>
+          <div class="sub-section">
+            <p>Graphic Design</p>
+            <span>
+              Lorem ipsumdolorsitamet,cons cteturad pasicing elit, sed do
+              eiusmod temporincididunt ut labore et dolore magna aliqua.
+            </span>
+          </div>
+          <div class="sub-section">
+            <p>Web Design</p>
+            <span>
+              Lorem ispansumdolorsitamet,cons cteturad pasicing elit, sed do
+              eiusmod temporincididunt ut labore et dolore magna aliqua.
+            </span>
+          </div>
+        </section>
+      </aside>
+    </main>
+
+    <!-------------- footer -------------->
+    <footer class="footer">
+      <div class="info">
+        <div class="phone">
+          <i class="fa-solid fa-phone"></i>
+          <span>+660 256 24857</span>
+        </div>
+        <div class="gmail">
+          <i class="fa-regular fa-envelope"></i>
+          <span>info@company.com</span>
+        </div>
+        <div class="address">
+          <i class="fa-sharp fa-solid fa-location-dot"></i>
+          <span>Your house address, goes here</span>
+        </div>
+      </div>
+      <div class="contact">
+        <span>© Buzzpro 2022 Made With by <a href=""> HasThemes</a></span>
+        <div class="icon">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-square-behance"></i>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
